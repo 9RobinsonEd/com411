@@ -1,0 +1,10 @@
+#Beep the robot
+print("\t##########")
+print("\t# -    - #")
+print("\t#        #")
+print("  ##############")
+print("  #            #")
+print("  #            #")
+print("  #            #")
+print("  #            #")
+print("  ##############")
