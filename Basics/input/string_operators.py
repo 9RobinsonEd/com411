@@ -1,0 +1,12 @@
+#Displaying Beep's Health
+lives=int(input("Please enter the number of lives."))
+print("")
+energy=int(input("Please enter the energy level."))
+print("")
+shield=int(input("Please enter shield level."))
+print("")
+print("Health has been set.")
+print("")
+print(f"lives:{'♥'*lives}")
+print(f"Energy:{'♦'*energy}")
+print(f"Sheild:{'♦'*shield}")
