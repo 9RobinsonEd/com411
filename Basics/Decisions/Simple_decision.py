@@ -1,7 +1,11 @@
-#If statements
-book = input("What type of book is this?")
-print("")
-print(f"I like {book} books!")
-print("")
-print (Finished reading book.)
+#User Input
+print("What type of book is this")
+book_type = input()
+
+#What type of book is it
+if book_type =="Horror":
+    print("I like Horror books!")
+
+#Displaying message
+print("finished reading book.")
 
