@@ -1,13 +1,12 @@
 #Simple List
 
-def directions(file_name):
-    print("these are the directions")
-    with open(file_name) as file:
-       for location in file:
-            print(f"Looked in {location.strip()} ")
+directions = []
+def directions():
+    directions = ["move forward", "Move Backwards","Move Right","move_left"]
+    return directions
 
-def run():
-    search("directions.txt")
 
+def run ():
+   print(directions())
 if __name__ == "__main__":
     run()
